@@ -17,7 +17,6 @@ from selenium.webdriver.chrome import service, webdriver, remote_connection
 
 
 class HiddenChromeService(service.Service):  # creates hidden Chrome service object
-
     def start(self):
         try:
             cmd = [self.path]
